@@ -27,11 +27,12 @@ class Ball extends Circle {
     return xDirectionLocal;
   }//end xDirection
   float yDirection() {
-    float yDirectionLocal = int(random(-6, 6));
+    return 10;
+    /*float yDirectionLocal = int(random(-6, 6));
     while (yDirectionLocal == 0) {
-      yDirectionLocal = int(random(-6, 6));
-    }
-    return yDirectionLocal;
+      yDirectionLocal = int(random(-6, 6));*/
+    //}
+    //return yDirectionLocal;
   }//end yDirection
   //
   //
