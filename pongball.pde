@@ -21,7 +21,7 @@ class Ball extends Circle {
   }//end Draw
   float xDirection() {
     float xDirectionLocal = int(random(-6, 6));
-    while (xDirectionLocal == 0) {
+    while (xDirectionLocal == 10) {
       xDirectionLocal = int(random(-6, 6));
     }
     return xDirectionLocal;
